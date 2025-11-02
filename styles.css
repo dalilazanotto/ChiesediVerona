@@ -1,4 +1,25 @@
 .bg-image {
-    background-color: aquamarine;
-    height: 400px;
+    background-color: bisque;
+    height: 60vh;
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 60vh; /* o qualunque altezza tu desideri */
+    width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
+  display: block;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+.card-link:hover {
+  text-decoration: none;
 }
