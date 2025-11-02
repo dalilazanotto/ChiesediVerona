@@ -1,17 +1,10 @@
 .bg-image {
-    background-color: bisque;
     height: 60vh;
 }
 
-.carousel-inner,
-.carousel-item {
-    height: 60vh; /* o qualunque altezza tu desideri */
-    width: 100%;
-}
-
-.carousel-item img {
+.carousel-home {
+  height: 60vh; /* o qualunque altezza tu desideri */
   width: 100%;
-  height: 100%;
   object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
   display: block;
 }
@@ -22,4 +15,22 @@
 }
 .card-link:hover {
   text-decoration: none;
+}
+
+.carousel-church {
+  height: 30vh; /* o qualunque altezza tu desideri */
+  width: 40%;
+  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
+  display: block;
+}
+
+
+.carousel-container {
+  height: 20vh; /* Imposta l'altezza desiderata per il contenitore */  /* Centra verticalmente */
+  display: flex;
+  align-items: center;
+}
+
+.carousel-church-item {
+  object-fit: cover;
 }
