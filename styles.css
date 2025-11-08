@@ -22,21 +22,18 @@
   text-decoration: none;
 }
 
-.carousel-church {
-  height: 30vh; /* o qualunque altezza tu desideri */
-  width: 40%;
+.carousel-duomo-img {
+  height: 400px; /* Imposta l'altezza desiderata */
   object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
-  display: block;
 }
 
-
-.carousel-container {
-  height: 20vh; /* Imposta l'altezza desiderata per il contenitore */  /* Centra verticalmente */
-  display: flex;
-  align-items: center;
+#carouselDuomo .carousel-inner,
+#carouselDuomo .carousel-item {
+  height: 500px; /* qui metti l'altezza che vuoi */
 }
 
-.carousel-church-item {
-  object-fit: cover;
+#carouselDuomo .carousel-item img {
+  height: 100%;      /* riempie verticalmente il carousel */
+  width: 100%;       /* riempie orizzontalmente */
+  object-fit: cover; /* mantiene le proporzioni, ritaglia se necessario */
 }
-
