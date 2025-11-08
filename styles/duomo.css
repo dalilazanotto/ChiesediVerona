@@ -1,27 +1,3 @@
-.bg-image {
-    height: 60vh;
-}
-
-.carousel-home {
-  height: 60vh; /* o qualunque altezza tu desideri */
-  width: 100%;
-  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
-  display: block;
-}
-
-.card-img-home {
-  height: 400px; /* Imposta l'altezza desiderata */
-  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
-}
-
-.card-link {
-  text-decoration: none;
-  color: inherit;
-}
-.card-link:hover {
-  text-decoration: none;
-}
-
 .carousel-duomo-img {
   height: 400px; /* Imposta l'altezza desiderata */
   object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
@@ -59,50 +35,6 @@
 .paragraph p {
   text-align: justify;
 }
-
-.footer-container {
-  
-  text-align: center;
-  /* padding: 1rem 0; */
-  width: 100%;
-}
-
-.footer-top {
-  background-color: #B28371;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-  width: 100%;
-}
-
-.footer-bottom {
-  background-color: #F1EDE8;
-  color: white;
-  text-align: center;
-  padding: 3rem 0;
-  width: 100%;
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-}
-
-.footer-bottom-content {
-  width: 300px;
-  color: black;
-}
-
-.map-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-.footer-bottom-content h5 {
-  color: #B28371;
-}
-
-/* .duomo-carousel-description {
-  text-align: center;
-} */
 
 .duomo-carousel-description {
   width: 350px;

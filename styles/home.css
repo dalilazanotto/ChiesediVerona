@@ -1,0 +1,28 @@
+.carousel-home {
+  height: 60vh; /* o qualunque altezza tu desideri */
+  width: 100%;
+  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
+  display: block;
+}
+
+.card-img-home {
+  height: 400px; /* Imposta l'altezza desiderata */
+  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+.card-link:hover {
+  text-decoration: none;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+
+

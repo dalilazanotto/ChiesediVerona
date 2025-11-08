@@ -1,0 +1,39 @@
+
+.navbar-container {
+  background-color: #F1EDE8;
+}
+
+.footer-container {
+  
+  text-align: center;
+  /* padding: 1rem 0; */
+  width: 100%;
+}
+
+.footer-top {
+  background-color: #B28371;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.footer-bottom {
+  background-color: #F1EDE8;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom-content {
+  width: 300px;
+  color: black;
+}
+
+.footer-bottom-content h5 {
+  color: #B28371;
+}
