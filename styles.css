@@ -9,6 +9,11 @@
   display: block;
 }
 
+.card-img-home {
+  height: 400px; /* Imposta l'altezza desiderata */
+  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
+}
+
 .card-link {
   text-decoration: none;
   color: inherit;
@@ -34,3 +39,4 @@
 .carousel-church-item {
   object-fit: cover;
 }
+
