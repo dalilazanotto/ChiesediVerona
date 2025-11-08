@@ -122,3 +122,18 @@
   margin-bottom: 0;
   text-align: center;
 }
+
+
+.badge {
+  background-color: #B28371;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-size: larger; */
+}
+
+.duomo-map-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
