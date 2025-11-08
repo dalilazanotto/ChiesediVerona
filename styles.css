@@ -37,3 +37,84 @@
   width: 100%;       /* riempie orizzontalmente */
   object-fit: cover; /* mantiene le proporzioni, ritaglia se necessario */
 }
+
+.container-padding {
+  margin-left: 200px;   /* riduci il padding a sinistra */
+  margin-right: 200px;  /* riduci il padding a destra */
+}
+
+.paragraph {
+  padding-top: 3rem;
+  margin-right: 3rem;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* background-color: aqua; */
+}
+
+.paragraph p {
+  text-align: justify;
+}
+
+.footer-container {
+  
+  text-align: center;
+  /* padding: 1rem 0; */
+  width: 100%;
+}
+
+.footer-top {
+  background-color: #B28371;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.footer-bottom {
+  background-color: #F1EDE8;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom-content {
+  width: 300px;
+  color: black;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* .duomo-carousel-description {
+  text-align: center;
+} */
+
+.duomo-carousel-description {
+  width: 350px;
+  color: white;
+  /* padding: 1rem; */
+  padding-top: 12px;
+  padding-bottom: 1px;
+  border-radius: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(125, 125, 125, 0.379);
+}
+
+.carousel-caption {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
