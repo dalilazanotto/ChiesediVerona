@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nicholaus e il protiro del Duomo di Verona</title>
+        <author>Carlo Donà</author>
+        <respStmt>
+          <resp>Elaborazione e codifica TEI</resp>
+          <name>Dalila Zanotto</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>Fonte: documento PDF “Nicholaus e i due eroi del protiro di S. Zeno”</publisher>
+        <pubPlace>Verona</pubPlace>
+        <date when="2021">2021</date>
+        <availability>
+          <p>This text is freely available</p>
+        </availability>
+      </publicationStmt>
+    <sourceDesc>
+        <bibl>
+          <title>Nicholaus e i due eroi del protiro di S. Zeno</title>
+          <pubPlace>Verona</pubPlace>
+          <date>n.d.</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <notesStmt>
+      <note type="editorial">
+        Il testo nel corpo del documento è una parafrasi dei passaggi del PDF relativi al protiro del Duomo di Verona e alla figura di Nicholaus,
+        scultore attivo tra la fine del XII e l'inizio del XIII secolo.
+      </note>
+    </notesStmt>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Duomo di Verona</term>
+          <term>Nicholaus</term>
+          <term>Protiro</term>
+          <term>Scultura romanica</term>
+          <term>Arte medievale</term>
+          <term>Portale</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="chapter" n="1">
+        <head>Il protiro del Duomo di Verona e l'opera di Nicholaus</head>
+        <p>
+          L'intervento di Nicholaus nel Duomo di Verona rappresenta una delle testimonianze più significative della scultura romanica in Italia settentrionale.
+          Il portale principale della cattedrale, il cosiddetto <hi>protiro</hi>, è caratterizzato da una struttura monumentale sostenuta da colonne su leoni stilofori,
+          un elemento distintivo della produzione dell'artista, già noto per i suoi lavori a Ferrara e a Piacenza.
+          Il protiro veronese mostra una stretta coerenza stilistica con altre opere attribuite a Nicholaus:
+          il trattamento plastico dei volumi, la definizione vigorosa dei corpi animali e la precisione narrativa dei rilievi
+          suggeriscono una mano esperta nel coniugare elementi classici e simbolici. Le figure dei leoni all'ingresso
+          rappresentano la forza e la protezione, motivi che l'artista riprende più volte nella sua carriera.
+          Nella decorazione del portale si leggono episodi biblici e riferimenti all'Antico Testamento,
+          integrati in un programma figurativo che doveva illustrare il tema della salvezza e della fede.
+          L'organizzazione dei rilievi e la scelta dei soggetti rivelano un linguaggio narrativo complesso,
+          in cui l'elemento architettonico e quello scultoreo dialogano in modo unitario.
+          L'opera al Duomo di Verona segna anche un momento di transizione nello stile di Nicholaus:
+          la rigidità tipica della fase ferrarese lascia spazio a una maggiore morbidezza delle forme e
+          a un più intenso dialogo tra figura e architettura. Tale evoluzione testimonia l'assimilazione di
+          influenze lombarde e padane, contribuendo a fare del protiro veronese un punto di riferimento per la scultura romanica dell'Italia settentrionale.
+          Attraverso la sua opera, Nicholaus rinnova il rapporto tra fede e immagine,
+          conferendo al portale del Duomo di Verona non solo una funzione decorativa,
+          ma anche un valore simbolico e teologico: un ingresso sacro che introduce il fedele
+          nel percorso spirituale dell'edificio cristiano.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
