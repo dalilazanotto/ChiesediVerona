@@ -18,16 +18,4 @@
   text-decoration: none;
 }
 
-.map-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-#map {
-  height: 600px;
-  width: 80%;
-}
-
-
 
