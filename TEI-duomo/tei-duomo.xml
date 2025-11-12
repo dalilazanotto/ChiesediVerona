@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Duomo di Verona</title>
+        <author>Dalila Zanotto</author>
+        <respStmt>
+          <resp>Codifica TEI</resp>
+          <name>Dalila Zanotto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Università di Bologna</publisher>
+        <date>2025-10-20</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Fonti: Brugnoli, P. “La cattedrale di Verona nelle sue vicende edilizie dal secolo IV al secolo XVI”</bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="section" xml:id="edificio">
+        <head>Edificio</head>
+        <p>La Cattedrale di Santa Maria Matricolare, meglio conosciuta come Duomo di Verona, sorge nel cuore del centro storico. 
+        L’edificio fa parte di un complesso che include il battistero di San Giovanni in Fonte, la chiesa di Sant'Elena, il chiostro e il museo canonicale.
+        La facciata alterna marmo bianco e rosato e presenta un protiro centrale con rilievi romanici.</p>
+      </div>
+
+      <div type="section" xml:id="origine">
+        <head>Origine</head>
+        <p>Le origini del complesso risalgono al IV secolo, con la prima basilica paleocristiana costruita sotto il vescovo San Zeno.
+        Dopo il terremoto del 1117, la chiesa fu ricostruita in stile romanico e consacrata nel 1187 da papa Urbano III.</p>
+      </div>
+
+      <div type="section" xml:id="restauri">
+        <head>Restauri</head>
+        <p>Nel corso dei secoli, la cattedrale ha subito numerosi restauri. 
+        Tra il Cinquecento e il Seicento vennero aggiunti elementi rinascimentali e barocchi. 
+        Un nuovo intervento di restauro è in corso dal 2025 per il consolidamento della facciata in pietra.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
