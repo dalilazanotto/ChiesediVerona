@@ -34,5 +34,16 @@
 }
 
 .footer-bottom-content h5 {
-  color: #B28371;
+  color: rgb(178, 131, 113);
+}
+
+.title-container {
+  color: white;
+  text-align: justify;
+  /* background: rgb(129, 97, 79); */
+  background: linear-gradient(90deg,rgba(129, 97, 79, 0.9) 0%, rgba(129, 97, 79, 0.8) 60%, rgba(129, 97, 79, 0) 100%);
+  padding: 20px;
+  padding-right: 200px;
+  
+  /* background: radial-gradient(circle,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%); */
 }
