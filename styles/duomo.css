@@ -45,7 +45,7 @@
   border-radius: 0.5rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: #b2837198;
+  background-color: rgb(129, 97, 79, 0.7);
 }
 
 .carousel-caption {
@@ -57,7 +57,7 @@
 
 
 .badge {
-  background-color: #B28371;
+  background-color: rgb(129, 97, 79);
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* font-size: larger; */

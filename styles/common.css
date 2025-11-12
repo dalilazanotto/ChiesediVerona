@@ -10,7 +10,7 @@
 }
 
 .footer-top {
-  background-color: #B28371;
+  background-color: rgb(129, 97, 79);
   color: white;
   text-align: center;
   padding: 1rem 0;
@@ -34,7 +34,7 @@
 }
 
 .footer-bottom-content h5 {
-  color: rgb(178, 131, 113);
+  color: rgb(129, 97, 79);
 }
 
 .title-container {
