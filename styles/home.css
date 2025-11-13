@@ -1,8 +1,7 @@
 .carousel-home {
   height: 60vh; 
   width: 100%;
-  object-fit: cover; 
-  display: block;
+  object-fit: cover;
 }
 
 .card-img-home {
