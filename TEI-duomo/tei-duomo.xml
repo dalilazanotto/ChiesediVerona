@@ -38,7 +38,7 @@
             </editorialDecl>
             <projectDesc>
                 <p>La codifica TEI del testo architettonico è finalizzata a documentare e digitalizzare
-                    le informazioni storico-architettoniche sulla Cattedrale di Verona, in linea con
+                    le informazioni storico-architettoniche sul Duomo di Verona, in linea con
                     le pratiche del digital humanities.</p>
             </projectDesc>
         </encodingDesc>
@@ -48,7 +48,7 @@
                 <listPerson>
                     <person>
                         <persName ref="#PB" sameAs="https://viaf.org/en/viaf/28346441">Pierpaolo Brugnoli</persName>
-                        <persName xml:id="duomodiVerona">Duomo di Verona</persName>
+                        <persName xml:id="duomodiVerona">San Zeno</persName>
                         <persName xml:id="urbanoIII">Papa Urbano III</persName>
                         <persName xml:id="pacifico">Arcidiacono Pacifico</persName>
                         <persName xml:id="sanmicheli">Michele Sanmicheli</persName>
@@ -95,7 +95,7 @@
                 <head>Origine</head>
                 <p>Le origini del complesso della Cattedrale di Santa Maria Matricolare risalgono alle
                     prime comunità cristiane di Verona. Nell'area oggi occupata dalla chiesa di Sant'Elena
-                    venne edificata una basilica paleocristiana tra il 362 e il 380 per iniziativa del
+                    venne edificata una basilica paleocristiana tra il <date when="362-380">362 e il 380</date>per iniziativa del
                     vescovo <persName ref="#sanzeno">San Zeno</persName>.</p>
 
                 <p>Successivamente fu costruita una seconda basilica più ampia (ecclesia matricularis),
@@ -104,9 +104,9 @@
                     l'<persName ref="#pacifico">arcidiacono Pacifico</persName> guidò la ricostruzione della cattedrale
                     spostandola a sud rispetto all'originaria posizione e avviando un nuovo progetto ecclesiastico.</p>
 
-                <p>Il terremoto del 3 gennaio 1117 devastò la città e il complesso del Duomo. Seguì
-                    un lungo cantiere di ricostruzione in stile romanico, iniziato intorno al 1120 e
-                    concluso con la consacrazione da parte di <persName ref="#urbanoIII">Papa Urbano III</persName> il 13 settembre 1187.
+                <p> Il terremoto del <date when="1117-01-03">3 gennaio 1117</date> devastò la città e il complesso del Duomo. Seguì
+                    un lungo cantiere di ricostruzione in stile romanico, iniziato intorno al <date when="11120"> 1120</date> e
+                    concluso con la consacrazione da parte di <persName ref="#urbanoIII">Papa Urbano III</persName> il <date when="1187-09-13">3 settembre 1187</date>.
                     In questa fase furono realizzati i protiri, le tre navate e la facciata in marmo e tufo,
                     che ancora oggi caratterizzano l'edificio.</p>
             </div>
@@ -124,7 +124,7 @@
                     concentrata sulla conservazione del materiale lapideo, il consolidamento statico e la tutela
                     delle opere d'arte interne.</p>
 
-                <p>Nel gennaio 2025 è stato avviato un importante intervento sulla facciata,
+                <p>Nel <date when="2025-01">gennaio 2025</date> è stato avviato un importante intervento sulla facciata,
                     comprendente la pulizia, il consolidamento e il restauro della pietra arenaria
                     maggiormente esposta all'usura atmosferica.</p>
             </div>

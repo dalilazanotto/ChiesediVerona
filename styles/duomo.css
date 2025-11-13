@@ -1,22 +1,22 @@
 .carousel-duomo-img {
-  height: 400px; /* Imposta l'altezza desiderata */
-  object-fit: cover; /* Adatta l'immagine al contenitore senza deformarla */
+  height: 400px;
+  object-fit: cover;
 }
 
 #carouselDuomo .carousel-inner,
 #carouselDuomo .carousel-item {
-  height: 500px; /* qui metti l'altezza che vuoi */
+  height: 500px; /
 }
 
 #carouselDuomo .carousel-item img {
-  height: 100%;      /* riempie verticalmente il carousel */
-  width: 100%;       /* riempie orizzontalmente */
-  object-fit: cover; /* mantiene le proporzioni, ritaglia se necessario */
+  height: 100%;  
+  width: 100%;       
+  object-fit: cover; 
 }
 
 .container-padding {
-  margin-left: 10rem;   /* riduci il padding a sinistra */
-  margin-right: 10rem;  /* riduci il padding a destra */
+  margin-left: 10rem;   
+  margin-right: 10rem;  
   padding-top: 2rem;
 }
 
@@ -29,7 +29,6 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  /* background-color: aqua; */
 }
 
 .paragraph p {
@@ -39,7 +38,6 @@
 .duomo-carousel-description {
   width: 350px;
   color: white;
-  /* padding: 1rem; */
   padding-top: 12px;
   padding-bottom: 1px;
   border-radius: 0.5rem;
@@ -60,7 +58,6 @@
   background-color: rgb(129, 97, 79);
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  /* font-size: larger; */
 }
 
 .duomo-map-container {
