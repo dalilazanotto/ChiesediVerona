@@ -1,12 +1,13 @@
 .carousel-home {
-  height: 60vh;
+  height: 60vh; 
   width: 100%;
-  object-fit: cover;
+  object-fit: cover; 
+  display: block;
 }
 
 .card-img-home {
-  height: 400px;
-  object-fit: cover;
+  height: 400px; 
+  object-fit: cover; 
 }
 
 .card-link {
