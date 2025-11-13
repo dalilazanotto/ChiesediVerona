@@ -1,49 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Duomo di Verona</title>
-        <author>Dalila Zanotto</author>
-        <respStmt>
-          <resp>Codifica TEI</resp>
-          <name>Dalila Zanotto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Università di Bologna</publisher>
-        <date>2025-10-20</date>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl>Fonti: Brugnoli, P. “La cattedrale di Verona nelle sue vicende edilizie dal secolo IV al secolo XVI”</bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Cattedrale di Verona nelle sue vicende edilizie</title>
+                <author xml:id="PB">Pierpaolo Brugnoli</author>
+                <respStmt>
+                    <resp>Codifica</resp>
+                    <persName xml:id="UT">Dalila Zanotto</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Arsenale Editrice</publisher>
+                <pubPlace>Venezia</pubPlace>
+                <date>1987</date>
+                <availability>
+                    <p>Questa risorsa è liberamente accessibile per uso personale o scientifico.
+                        Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>La cattedrale di Verona nelle sue vicende edilizie dal secolo IV al secolo XVI</title>
+                    <author ref="#PB">Pierpaolo Brugnoli</author>
+                    <publisher>Arsenale Editrice</publisher>
+                    <pubPlace>Venezia</pubPlace>
+                    <date>1987</date>
+                    <idno type="ISBN">88-7743-023-0</idno>
+                    <note>Testo tratto e rielaborato per codifica TEI</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
 
-  <text>
-    <body>
-      <div type="section" xml:id="edificio">
-        <head>Edificio</head>
-        <p>La Cattedrale di Santa Maria Matricolare, meglio conosciuta come Duomo di Verona, sorge nel cuore del centro storico. 
-        L'edificio fa parte di un complesso che include il battistero di San Giovanni in Fonte, la chiesa di Sant'Elena, il chiostro e il museo canonicale.
-        La facciata alterna marmo bianco e rosato e presenta un protiro centrale con rilievi romanici.</p>
-      </div>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation marks="all"/>
+            </editorialDecl>
+            <projectDesc>
+                <p>La codifica TEI del testo architettonico è finalizzata a documentare e digitalizzare
+                    le informazioni storico-architettoniche sulla Cattedrale di Verona, in linea con
+                    le pratiche del digital humanities.</p>
+            </projectDesc>
+        </encodingDesc>
 
-      <div type="section" xml:id="origine">
-        <head>Origine</head>
-        <p>Le origini del complesso risalgono al IV secolo, con la prima basilica paleocristiana costruita sotto il vescovo San Zeno.
-        Dopo il terremoto del 1117, la chiesa fu ricostruita in stile romanico e consacrata nel 1187 da papa Urbano III.</p>
-      </div>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#PB" sameAs="https://viaf.org/en/viaf/28346441">Pierpaolo Brugnoli</persName>
+                        <persName xml:id="sanzeno">San Zeno</persName>
+                        <persName xml:id="urbanoIII">Papa Urbano III</persName>
+                        <persName xml:id="pacifico">Arcidiacono Pacifico</persName>
+                        <persName xml:id="sanmicheli">Michele Sanmicheli</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place>
+                        <placeName xml:id="verona" sameAs="https://pleiades.stoa.org/places/383816?searchterm=verona">Verona</placeName>
+                        <placeName xml:id="duomo">Cattedrale di Santa Maria Matricolare</placeName>
+                        <placeName xml:id="piazzaduomo">Piazza Duomo</placeName>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
 
-      <div type="section" xml:id="restauri">
-        <head>Restauri</head>
-        <p>Nel corso dei secoli, la cattedrale ha subito numerosi restauri. 
-        Tra il Cinquecento e il Seicento vennero aggiunti elementi rinascimentali e barocchi. 
-        Un nuovo intervento di restauro è in corso dal 2025 per il consolidamento della facciata in pietra.</p>
-      </div>
-    </body>
-  </text>
+    <text>
+        <body>
+            <head>La Cattedrale di Verona nelle sue vicende edilizie dal secolo IV al secolo XVI</head>
+
+            <div xml:id="edificio" n="1" xml:lang="it">
+                <head>Edificio</head>
+                <p>La Cattedrale di Santa Maria Matricolare, meglio conosciuta come Duomo di Verona,
+                    sorge in una posizione privilegiata all'interno del centro storico della città di
+                    <placeName ref="#verona">Verona</placeName>, in <placeName ref="#piazzaduomo">Piazza Duomo</placeName>,
+                    nell'ansa del fiume Adige. L'edificio fa parte di un più ampio complesso liturgico e canonico
+                    che comprende il battistero di San Giovanni in Fonte, la chiesa di Sant'Elena,
+                    il chiostro dei Canonici, il palazzo vescovile, la biblioteca capitolare e il museo canonicale.</p>
+
+                <p>Esternamente, la facciata è articolata su tre ordini e alterna marmo bianco, rosato e tufo,
+                    con un protiro centrale a due livelli. Il protiro, realizzato nel XII secolo da un
+                    maestro Nicolò, presenta colonne tortili, rilievi scultorei, figure di santi,
+                    simboli zoomorfi e motivi vegetali. L'interno è suddiviso in tre navate, con colonne
+                    in marmo rosso di Verona e arcate che mostrano elementi gotici e rinascimentali.</p>
+
+                <p>La cattedrale è la chiesa madre della diocesi di Verona: luogo di culto principale,
+                    sede vescovile e uno dei monumenti più significativi della città dal punto di vista
+                    spirituale e artistico.</p>
+            </div>
+
+            <div xml:id="origine" n="2" xml:lang="it">
+                <head>Origine</head>
+                <p>Le origini del complesso della Cattedrale di Santa Maria Matricolare risalgono alle
+                    prime comunità cristiane di Verona. Nell'area oggi occupata dalla chiesa di Sant'Elena
+                    venne edificata una basilica paleocristiana tra il 362 e il 380 per iniziativa del
+                    vescovo <persName ref="#sanzeno">San Zeno</persName>.</p>
+
+                <p>Successivamente fu costruita una seconda basilica più ampia (ecclesia matricularis),
+                    dotata di nartece e presbiterio. Entrambe le chiese furono distrutte intorno al VII secolo,
+                    forse a causa di un incendio o di un terremoto. Tra l'VIII e il IX secolo,
+                    l'<persName ref="#pacifico">arcidiacono Pacifico</persName> guidò la ricostruzione della cattedrale
+                    spostandola a sud rispetto all'originaria posizione e avviando un nuovo progetto ecclesiastico.</p>
+
+                <p>Il terremoto del 3 gennaio 1117 devastò la città e il complesso del Duomo. Seguì
+                    un lungo cantiere di ricostruzione in stile romanico, iniziato intorno al 1120 e
+                    concluso con la consacrazione da parte di <persName ref="#urbanoIII">Papa Urbano III</persName> il 13 settembre 1187.
+                    In questa fase furono realizzati i protiri, le tre navate e la facciata in marmo e tufo,
+                    che ancora oggi caratterizzano l'edificio.</p>
+            </div>
+
+            <div xml:id="restauri" n="3" xml:lang="it">
+                <head>Restauri</head>
+                <p>Nel corso dei secoli, la Cattedrale di Santa Maria Matricolare ha subito numerosi
+                    interventi di restauro e ristrutturazione, sia per motivi strutturali sia per esigenze
+                    funzionali e decorative. Tra Quattrocento e Cinquecento si aggiunsero cappelle laterali,
+                    si innalzò la navata centrale e fu introdotto il tornacoro semicircolare progettato da
+                    <persName ref="#sanmicheli">Michele Sanmicheli</persName>.</p>
+
+                <p>La facciata esterna, pur mantenendo l'impianto romanico, venne completata tra il 1565 e il 1606,
+                    con l'aggiunta di bifore laterali e del rosone. Negli ultimi decenni l'attenzione si è
+                    concentrata sulla conservazione del materiale lapideo, il consolidamento statico e la tutela
+                    delle opere d'arte interne.</p>
+
+                <p>Nel gennaio 2025 è stato avviato un importante intervento sulla facciata,
+                    comprendente la pulizia, il consolidamento e il restauro della pietra arenaria
+                    maggiormente esposta all'usura atmosferica.</p>
+            </div>
+        </body>
+    </text>
 </TEI>
+
