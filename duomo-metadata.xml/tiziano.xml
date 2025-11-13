@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/">
+
+<autore xml:id="DC">
+        <testo xml:id="ita">
+            <dc:title></dc:title>
+            <dc:creator>Dalila Zanotto</dc:creator>
+            <dc:subject>Assunzione di Tiziano</dc:subject>
+            <dc:description> Descrizione dell'opera di Tiziano nel Duomo di Verona</dc:description>
+            <dc:publisher>Alma Mater Studiorum - Università di Bologna</dc:publisher>
+            <dc:date>2024</dc:date>
+            <dc:type>Descrizione opera</dc:type>
+            <dc:format>testo digitale</dc:format>
+            <dc:source> Catalogo dei beni culturali</dc:source>
+            <dc:language>italiano</dc:language>
+            <dc:relation>Fondazione Zeri</dc:relation>
+
+    <dc:rights>© 2025 Dalila Zanotto - Licenza Creative Commons BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)</dc:rights>
+
+</metadata>

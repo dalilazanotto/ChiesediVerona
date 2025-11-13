@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
-          xmlns:dcterms="http://purl.org/dc/terms/"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://purl.org/dc/elements/1.1/
-                              http://dublincore.org/schemas/xmls/simpledc20021212.xsd">
+          xmlns:dcterms="http://purl.org/dc/terms/">
 
     <dc:title>Il Duomo di Verona</dc:title>
     <dc:creator>Dalila Zanotto</dc:creator>
@@ -13,7 +10,7 @@
     <dc:contributor>Dalila Zanotto</dc:contributor>
     <dc:date>2025-10-20</dc:date>
     <dc:type>Sito web</dc:type>
-    <dc:format>HTML/CSS/JS</dc:format>
+    <dc:format>testo digitale</dc:format>
     <dc:identifier>https://www.github.com/dalilazanotto/ChiesediVerona</dc:identifier>
 
     <dc:source>Verona, Le chiese storiche</dc:source>
