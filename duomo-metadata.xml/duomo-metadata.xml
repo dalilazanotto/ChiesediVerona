@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://purl.org/dc/elements/1.1/
+                              http://dublincore.org/schemas/xmls/simpledc20021212.xsd">
 
-<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Il Duomo di Verona</dc:title>
+    <dc:creator>Dalila Zanotto</dc:creator>
+    <dc:subject>Architettura religiosa; Chiese di Verona; Patrimonio artistico veronese</dc:subject>
+    <dc:description>Caratteristiche principali del Duomo di Verona.</dc:description>
+    <dc:publisher>Università di Bologna</dc:publisher>
+    <dc:contributor>Dalila Zanotto</dc:contributor>
+    <dc:date>2025-10-20</dc:date>
+    <dc:type>Sito web</dc:type>
+    <dc:format>HTML/CSS/JS</dc:format>
+    <dc:identifier>https://www.github.com/dalilazanotto/ChiesediVerona</dc:identifier>
 
-    <autore xml:id="DZ">
-        <testo xml:id="ita">
-            <dc:title>Le Chiese medievali di Verona</dc:title>
-            <dc:creator>Dalila Zanotto</dc:creator>
-            <dc:subject>Architettura religiosa; Chiese di Verona; Patrimonio artistico veronese</dc:subject>
-            <dc:description>Raggruppamento degli edifici ecclesiastici medievali della città di Verona, con informazioni storiche, artistiche e architettoniche.</dc:description>
-            <dc:publisher>Università di Bologna</dc:publisher>
-            <dc:contributor>Dalila Zanotto</dc:contributor>
-            <dc:date>20 ottobre 2025</dc:date>
-            <dc:type>Sito web</dc:type>
-            <dc:format>HTML/CSS/JS</dc:format>
-            <dc:identifier>https://www.github.com/dalilazanotto/ChiesediVerona</dc:identifier>
-            <dc:source>Verona, Le chiese storiche; Wikipedia, Le chiese di Verona</dc:source>
-            <dc:language>italiano</dc:language>
-            <dc:relation>SBN SBL0303338; ISBN 88-7743-023-0; SBN VIA0098004</dc:relation>
-            <dc:coverage>Verona (http://vocab.getty.edu/page/tgn/7003007)</dc:coverage>
-            <dc:rights>© 2025 Dalila Zanotto - Licenza Creative Commons BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)</dc:rights>
-        </testo>
-    </autore>
+    <dc:source>Verona, Le chiese storiche</dc:source>
+    <dc:source>Wikipedia, Le chiese di Verona</dc:source>
+    <dc:source>La cattedrale di Verona nelle sue vicende edilizie dal secolo IV al secolo XVI, di Pierpaolo Brugnoli</dc:source>
+    <dc:source>Duomo di Verona, di Pierpaolo Brugnoli</dc:source>
+
+    <dc:language>it</dc:language>
+
+    <dc:relation>SBN SBL0303338</dc:relation>
+    <dc:relation>ISBN 88-7743-023-0</dc:relation>
+    <dc:relation>SBN VIA0098004</dc:relation>
+
+    <dc:coverage>http://vocab.getty.edu/page/tgn/7003007</dc:coverage>
+
+    <dc:rights>© 2025 Dalila Zanotto - Licenza Creative Commons BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)</dc:rights>
 
 </metadata>
+

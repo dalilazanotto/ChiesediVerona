@@ -48,7 +48,7 @@
                 <listPerson>
                     <person>
                         <persName ref="#PB" sameAs="https://viaf.org/en/viaf/28346441">Pierpaolo Brugnoli</persName>
-                        <persName xml:id="sanzeno">San Zeno</persName>
+                        <persName xml:id="duomodiVerona">Duomo di Verona</persName>
                         <persName xml:id="urbanoIII">Papa Urbano III</persName>
                         <persName xml:id="pacifico">Arcidiacono Pacifico</persName>
                         <persName xml:id="sanmicheli">Michele Sanmicheli</persName>
